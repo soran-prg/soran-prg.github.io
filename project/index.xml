@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Soran Parang</title>
+    <link>https://www.soran-prg.github.io/project/</link>
+      <atom:link href="https://www.soran-prg.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 09 Jan 2020 16:34:05 +0330</lastBuildDate>
+    <image>
+      <url>https://www.soran-prg.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Projects</title>
+      <link>https://www.soran-prg.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>Depth of the Moho Discontinuity from Parker-Oldenburg Inversion and Geopotential Models</title>
+      <link>https://www.soran-prg.github.io/project/first_project/</link>
+      <pubDate>Thu, 09 Jan 2020 16:34:05 +0330</pubDate>
+      <guid>https://www.soran-prg.github.io/project/first_project/</guid>
+      <description>&lt;p&gt;The Parker-Oldenburg inversion algorithm is defined as follows:&lt;/p&gt;
+&lt;p&gt;$$h(x)=F^{-1}(\frac{-F[\Delta g(x)]e^{-kz_0}}{2\pi G \rho}-\displaystyle\sum_{n=2}^{\infty} \frac{k^{n-1}}{n!}F[h^{n}(x)])$$&lt;/p&gt;
+&lt;DIV align=&#34;justify&#34;&gt;
+Where F is the Fourier transform operator; ∆g(x) is gravity anomaly; h(x) is the depth to the interface; k is the wavenumber; G is the gravitational constant; ρ is the density contrast across the interface; and z&lt;sub&gt;0&lt;/sub&gt; is the average depth of the horizontal interface. According to this algorithm, the topography of the interface density can be estimated by an iterative inversion procedure. The first approximation of the topography interface is computed by assigning h(x)=0. Iteratively, the value of h(x) is used in the equation to calculate a new estimate of h(x) until a reasonable solution is acquired. Due to the fact that the Parker-Oldenburg inversion method is unstable at high frequencies, a cosine low pass filter is utilized for constraining high frequency signals and series convergence. The high-cut filter (HCF) is defined as follows (WH and SH are the cut-off frequencies):
+&lt;/DIV&gt;
+&lt;p&gt;$$HCF(k)=\frac{1}{2}[1+\cos(\frac{k-2\pi \times WH}{2 \times (SH-WH)})] \ \ for \ \    WH \lt k \lt SH$$&lt;/p&gt;
+&lt;p&gt;$$HCF(k)=0 \ \ for \ \ k \gt SH$$&lt;/p&gt;
+&lt;p&gt;$$HCF(k)=1 \  \ for \ \ k \lt WH$$&lt;/p&gt;
+&lt;DIV align=&#34;justify&#34;&gt;
+It should be noted that when the difference between two successive approximations is lower than a convergence criterion or when a certain number of iterations is obtained, the iterative procedure will be terminated. In this study, the complete Bouguer gravity anomaly has been computed from the EGM2008 global geopotential model and ETOPO1 elevation data.
+&lt;/DIV&gt;
+&lt;p&gt;$$\Delta g_ {CB} = \Delta g_ {FA} - C_ {sb} +T.C.$$&lt;/p&gt;
+&lt;DIV align=&#34;justify&#34;&gt;
+&lt;p&gt;Where ∆g&lt;sub&gt;CB&lt;/sub&gt; is the complete Bouguer gravity anomaly; ∆g&lt;sub&gt;FA&lt;/sub&gt; is the Free-Air gravity anomaly that is calculated from the spherical harmonics of the EGM2008 geopotential model up to degree and order of 2190; C&lt;sub&gt;sb&lt;/sub&gt; is the simple Bouguer reduction that is defined as C&lt;sub&gt;sb&lt;/sub&gt;=2.π.ρ.G.H&lt;sup&gt;o&lt;/sup&gt; (ρ: 2670kg/m&lt;sup&gt;3&lt;/sup&gt;; G: gravitational constant; H&lt;sup&gt;o&lt;/sup&gt;: orthometric elevation acquired from ETOPO1 model); and T.C. is the terrain effects.&lt;/p&gt;
+&lt;p&gt;The computed Bouguer anomaly is a combination of long- and short-wavelength features. Generally speaking, a deeper source produces gravity anomalies with longer wavelength than a shallower source with the same size and density. In this study, in order to distinguish between deeper and shallower sources and do away with Bouguer anomalies with short wavelengths associated with shallow crustal sources, the radially averaged power spectrum of the complete Bouguer data has been calculated by Fourier analysis. Considering the log of power of the Bouguer gravity spectrum as a function of wavenumber, the mean depth of the interfaces is estimated by the power spectrum analysis. According to the plot of logarithm of the spectral energy against wavenumber, the spectral energy decays as the wavenumber increases. Mainly, this decay process is controlled by the ensemble average depth of the random distribution of sources, which can be predicted by detecting the linear trends of the plot and fitting a linear function to each segment concerning residual or regional anomalies. The mean depth of the interfaces equals the half of the slope of the segments (&lt;a href=&#34;https://pubs.geoscienceworld.org/geophysics/article-abstract/35/2/293/71153/Statistical-models-for-interpreting-aeromagnetic?redirectedFrom=fulltext&#34;&gt;Spector &amp;amp; Grant (1970)&lt;/a&gt;). The reference level (z&lt;sub&gt;0&lt;/sub&gt;) for the Parker-Oldenburg inversion approach and cut-off wavelengths for differentiating the regional complete Bouguer anomaly (high wavelength anomalies corresponding to deep sources), which is utilized for the Moho depth estimation, from the residual one (short wavelength anomalies relating to shallow sources) have been derived from the power spectral analysis results. The density contrast between upper mantle and lower crust was computed from CRUST 1.0 and CRUST 2.0 models. &lt;/p&gt;
+&lt;/DIV&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;hhbhb.jpg&#34; data-caption=&#34;Radially averaged power spectrum of the complete Bouguer anomaly, three linear trends corresponding to causative sources at mean depths of 91.7, 23.93, and 6.09 km&#34;&gt;
+&lt;img data-src=&#34;hhbhb.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Radially averaged power spectrum of the complete Bouguer anomaly, three linear trends corresponding to causative sources at mean depths of 91.7, 23.93, and 6.09 km
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;jij.jpg&#34; data-caption=&#34;The complete Bouguer anomaly map on the Kopeh Dagh structural zone, northeastern Iran&#34;&gt;
+&lt;img data-src=&#34;jij.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    The complete Bouguer anomaly map on the Kopeh Dagh structural zone, northeastern Iran
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;huuuh.jpg&#34; data-caption=&#34;Topography from ETOPO1&#34;&gt;
+&lt;img data-src=&#34;huuuh.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Topography from ETOPO1
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;ghg.jpg&#34; data-caption=&#34;Density contrast between the upper mantle and lower crust calculated from CRUST 1.0 model&#34;&gt;
+&lt;img data-src=&#34;ghg.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Density contrast between the upper mantle and lower crust calculated from CRUST 1.0 model
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;featured.jpg&#34; data-caption=&#34;Depth of the Moho discontinuity from the Parker-Oldenburg inversion algorithm&#34;&gt;
+&lt;img data-src=&#34;featured.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Depth of the Moho discontinuity from the Parker-Oldenburg inversion algorithm
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;ppp1.jpg&#34; data-caption=&#34;Moho depth variation along profile AB&#34;&gt;
+&lt;img data-src=&#34;ppp1.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Moho depth variation along profile AB
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;ppp2.jpg&#34; data-caption=&#34;Moho depth variation along profile CD&#34;&gt;
+&lt;img data-src=&#34;ppp2.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Moho depth variation along profile CD
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Moho Depth Estimation in Iran through Geopotential Models and Euler Deconvolution Method</title>
+      <link>https://www.soran-prg.github.io/project/second_project/</link>
+      <pubDate>Thu, 09 Jan 2020 15:57:19 +0330</pubDate>
+      <guid>https://www.soran-prg.github.io/project/second_project/</guid>
+      <description>&lt;DIV align=&#34;justify&#34;&gt;
+&lt;p&gt;The Moho discontinuity is the boundary between the Earth&#39;s crust and the underlying mantle. The Moho depth in different zones of Iran has been estimated by various approaches like analysis of receiver function method according to teleseismic waves recorded in seismic stations; inversion of terrestrial gravity data and using Bouguer gravity anomaly and free air gravity anomaly; spectral correlation analysis of terrain gravity effects; thermal analysis and using geoid height; Parker-Oldenburg method; Least squares Collection. For instance, the first of crustal thickness variations have been computed from Bouguer anomaly modelling by Dehghani &amp;amp; Makris (1984) for the whole Iran. Based on their results, crustal thickness is 55 km beneath the main Zagros thrust, 45–48 km in eastern Iran and 35 km below the Alborz mountains. In this study, a new approach was used to estimate the Moho depth in structural zones of Iran based on geopotential models and 3D Euler Deconvolution method. The Euler Deconvolution method is a semi-automated process and supports the interpretation of magnetic field data, gravimetry data or gravity gradiometry data. It is used to estimate the location of the source of a magnetic or a gravity field anomaly. Euler Deconvolution method is not dependent on an initial depth or density limitations (&lt;a href=&#34;https://pubs.geoscienceworld.org/geophysics/article-abstract/55/1/80/72314/Magnetic-interpretation-in-three-dimensions-using?redirectedFrom=fulltext&#34;&gt;Reid et al., 1990&lt;/a&gt;; &lt;a href=&#34;http://geophysics.geoscienceworld.org/content/66/3/814.abstract&#34;&gt;Mushayandebvu et al., 2001&lt;/a&gt;). Based on &lt;a href=&#34;http://www.google.com/url?q=http%3A%2F%2Fgeophysics.geoscienceworld.org%2Fcontent%2F63%2F5%2F1595.abstract&amp;amp;sa=D&amp;amp;sntz=1&amp;amp;usg=AFrqEzfb8PJ20hVRP5wTB88OJFav6RqTFA&#34;&gt;Keating (1998)&lt;/a&gt; and &lt;a href=&#34;http://geophysics.geoscienceworld.org/content/68/6/1962.abstract&#34;&gt;Silva &amp;amp; Barbosa (2003)&lt;/a&gt;, this algorithm is proper to determine depth of vertical and horizontal contacts, so it is good to be used in estimating the crust-mantle boundary (Moho depth).&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://geophysics.geoscienceworld.org/content/47/1/31&#34;&gt;Thompson (1982)&lt;/a&gt; showed that Euler&#39;s homogeneity relation could be written in the form:&lt;/p&gt;
+&lt;/DIV&gt;
+&lt;p&gt;$$(x-x_0)\frac{\partial T}{\partial x} + (y-y_0)\frac{\partial T}{\partial y} +(z-z_0)\frac{\partial T}{\partial z} = N(B-T)$$&lt;/p&gt;
+&lt;DIV align=&#34;justify&#34;&gt;
+Where (x&lt;sub&gt;0&lt;/sub&gt;, y&lt;sub&gt;0&lt;/sub&gt;, z&lt;sub&gt;0&lt;/sub&gt;) is the position of a source whose total field T, is detected at (x, y, z). The total field has a regional or background value B. N is the degree of homogeneity, interpreted physically as the fall-off rate with distance and geophysically as a Structural Index (SI), Structural Index can change from 0 to 2 for gravity data. Because of high volume of data used in magnetic or gravimetric methods and lack of access to high precision and quality in overall processing of data in whole grid, Euler square window has been defined according to:
+&lt;/DIV&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;2.jpg&#34; data-caption=&#34;Euler Deconvolution Algorithm&#34;&gt;
+&lt;img data-src=&#34;2.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Euler Deconvolution Algorithm
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;DIV align=&#34;justify&#34;&gt;
+&lt;p&gt;The process is done inside the window and unknown parameters (B, x&lt;sub&gt;0&lt;/sub&gt;, y&lt;sub&gt;0&lt;/sub&gt;, z&lt;sub&gt;0&lt;/sub&gt;) are calculated using least squares adjustment. This window must have two characteristics (&lt;a href=&#34;https://library.seg.org/doi/abs/10.1190/1.1444529&#34;&gt;Barbosa et al., 1999&lt;/a&gt;): 1. It should be large enough to incorporate substantial variation of the field and field gradient.; 2. It should be small enough not to include significant effects from multiple sources.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://library.seg.org/doi/abs/10.1190/1.1707069&#34;&gt;Mushayandebvu et al. (2004)&lt;/a&gt; studied influence of structural index on depth uncertainty and source position using a synthetic anomaly. Their studies show that an estimated depth for an anomaly may considerably change following structural index changes while location (or horizontal) uncertainties (X&lt;sub&gt;offset&lt;/sub&gt;, Y&lt;sub&gt;offset&lt;/sub&gt;) won&#39;t change much. Although it is possible to have same anomaly using two structural indices, estimating depth of each structural index will be completely different. Another important parameter is window size which influence estimated depth in each solution. Generally speaking, solutions with much bigger or much smaller depths than window size are not acceptable, in these situations the resulted source cannot fit on geometry of hypothetical model. &lt;a href=&#34;http://geophysics.geoscienceworld.org/content/55/1/80.abstract&#34;&gt;Reid et al. (1990)&lt;/a&gt; studied relation between anomalous depth and window size, they found out that the minimum acceptable depth is equal to window size and its maximum is about three times the window size. &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0926985199000476&#34;&gt;Barbosa et al. (2000)&lt;/a&gt; showed that it is possible to calculate (x&lt;sub&gt;0&lt;/sub&gt;, y&lt;sub&gt;0&lt;/sub&gt;) parameters (horizontal position of source) through selection of proper window size according to the model with no attention to N. But to calculate depth parameter (z&lt;sub&gt;0&lt;/sub&gt;) which is the most important parameter in interpretation of gravity data, selection of structural index must be done precisely. Window size is a function of model depth and smaller window size provides larger errors for deeper depth because deeper masses have wider anomaly which in order to be included, the window must be wider. In simpler words, small windows deliver proper solutions for shallow anomalies while large windows provide small errors in depth estimation of deep masses.&lt;/p&gt;
+&lt;p&gt;Geopotential models provide homogeneous and uniformly accurate information on the long wavelengths of the earth&#39;s gravity field. Since these Models have long wavelengths of gravity field, they are very suitable in determining Moho depth because short and middle wavelengths are not useful in this case. Accuracy of the geopotential models are usually evaluated by comparing the geoidal heights derived from the models with those of the local GPS-Leveling stations. After comparing EIGEN-GL04C model to GPS-Leveling data, it has been chosen as the most accurate model in Iran. In this research, free air gravity anomaly from EIGEN-GL04C model (Up to degree and order of 360; Long wavelengths of gravity field) as the total field (T) and ETOPO1 Model for considering topography effect were used for estimating Moho depth.&lt;/p&gt;
+&lt;/DIV&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;featured.png&#34; data-caption=&#34;Free air gravity anomaly resulted from EIGEN-GL04C (The Zagros Zone)&#34;&gt;
+&lt;img data-src=&#34;featured.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Free air gravity anomaly resulted from EIGEN-GL04C (The Zagros Zone)
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;ETOPO1.png&#34; data-caption=&#34;Topography resulted from ETOPO1 (The Zagros Zone)&#34;&gt;
+&lt;img data-src=&#34;ETOPO1.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Topography resulted from ETOPO1 (The Zagros Zone)
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;DIV align=&#34;justify&#34;&gt;
+&lt;p&gt;A lot of research has been done about relationship between anomalous depth and spherical harmonic degree. &lt;a href=&#34;https://www.tandfonline.com/doi/abs/10.1080/15210608309379476#.VAH1uHbrf1U&#34;&gt;Bowin (1983)&lt;/a&gt; showed that second- and third-degree spherical harmonics are related to sources near to mantle-core boundary. Also &lt;a href=&#34;https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/JB089iB07p06003&#34;&gt;Hager (1984)&lt;/a&gt; showed that fourth- to ninth-degree spherical harmonics are in relation with density models of subducted slab. Although it is not possible to calculate radial distribution of anomalous masses uniquely, but it is known that deeper and bigger sources produce lower degree harmonics of gravity field while higher degree harmonics are produced by shallow and smaller sources (&lt;a href=&#34;https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-246X.1991.tb01158.x&#34;&gt;Jackson et al., 1991&lt;/a&gt;). According to &lt;a href=&#34;https://pubs.geoscienceworld.org/geophysics/article-abstract/51/1/123/72071/Depth-estimates-from-ratios-of-gravity-geoid-and?redirectedFrom=fulltext&#34;&gt;Bowin et al. (1986)&lt;/a&gt; studies, maximum depth of sensitivity for each degree of spherical harmonic is defined as Z&lt;sub&gt;max&lt;/sub&gt;= r&lt;sub&gt;c&lt;/sub&gt;/(n-1); r&lt;sub&gt;c&lt;/sub&gt; is radius of earth, n is the degree of spherical harmonic and Z&lt;sub&gt;max&lt;/sub&gt; is the maximum depth of sensitivity; On the other hand λ (Wavelength)=2πr&lt;sub&gt;c&lt;/sub&gt;/n. Since this study aims to find Moho depth (depth of crust-mantle boundary), it can be said the desired depths are below 100 km, so there is a need to use a high pass filter to remove the effect of low frequencies which belong to deep masses, in other words to remove the influence of masses close to the mantle-core boundary and pass high frequencies. In the following figures, free air gravity anomaly and its derivatives in three directions after using a high pass filter with cut-off wavelength of 1000 km are shown. The X and Y derivatives were calculated in the spatial domain using a simple nine-point convolution filter and the Z derivative was computed in the frequency domain using Fast Fourier Transform (FFT).&lt;/p&gt;
+&lt;/DIV&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;FA_mgal_1000km.png&#34; data-caption=&#34;High pass filtered free air gravity anomaly (The Zagros Zone); cut-off wavelength of 1000 km&#34;&gt;
+&lt;img data-src=&#34;FA_mgal_1000km.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    High pass filtered free air gravity anomaly (The Zagros Zone); cut-off wavelength of 1000 km
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;dx_mgal_1000Km.png&#34; data-caption=&#34;The X derivative&#34;&gt;
+&lt;img data-src=&#34;dx_mgal_1000Km.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    The X derivative
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;dy_mgal_1000Km.png&#34; data-caption=&#34;The Y derivative&#34;&gt;
+&lt;img data-src=&#34;dy_mgal_1000Km.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    The Y derivative
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;dz_mgal_1000Km.png&#34; data-caption=&#34;The Z derivative&#34;&gt;
+&lt;img data-src=&#34;dz_mgal_1000Km.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    The Z derivative
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;DIV align=&#34;justify&#34;&gt;
+&lt;p&gt;The Moho depth in the Structural Zones of Iran (Zagros Fold &amp;amp; Thrust Belt, Sanandaj-Sirjan Zone, Alborz, Central Domain, Kopeh Dagh) was estimated by Euler Deconvolution method for 15 km to 55 km window sizes and 0 to 2 structural indices. the best window size and structural index in the structural zones were determined by comparing depths from Euler Deconvolution method and those of seismic studies (receiver function method) in 14 seismic stations of the studied region, then the results were compared to CRUST2.0 model and other research works. In the Zagros zone, the results show that for a window size of 40-45 km and structural index of 0.5 the best Moho depth is estimated using Euler Deconvolution algorithm. The following figure shows the results of estimating Moho depth by Euler Deconvolution method for window sizes of 15 km to 55 km and structural index of 0.5 along AB profile in the Zagros zone.&lt;/p&gt;
+&lt;/DIV&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;a.png&#34; data-caption=&#34;Topography map with seismic stations&#34;&gt;
+&lt;img data-src=&#34;a.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Topography map with seismic stations
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;b.png&#34; data-caption=&#34;Variation of Moho depth along AB profile in the Zagros Zone&#34;&gt;
+&lt;img data-src=&#34;b.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Variation of Moho depth along AB profile in the Zagros Zone
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Other Projects</title>
+      <link>https://www.soran-prg.github.io/project/other/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.soran-prg.github.io/project/other/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

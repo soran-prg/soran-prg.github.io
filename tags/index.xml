@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags | Soran Parang</title>
+    <link>https://www.soran-prg.github.io/tags/</link>
+      <atom:link href="https://www.soran-prg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 09 Jan 2020 16:34:05 +0330</lastBuildDate>
+    <image>
+      <url>https://www.soran-prg.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Tags</title>
+      <link>https://www.soran-prg.github.io/tags/</link>
+    </image>
+    
+    <item>
+      <title>Moho Depth</title>
+      <link>https://www.soran-prg.github.io/tags/moho-depth/</link>
+      <pubDate>Thu, 09 Jan 2020 16:34:05 +0330</pubDate>
+      <guid>https://www.soran-prg.github.io/tags/moho-depth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>other</title>
+      <link>https://www.soran-prg.github.io/tags/other/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.soran-prg.github.io/tags/other/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

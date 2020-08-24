@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Soran Parang</title>
+    <link>https://www.soran-prg.github.io/authors/</link>
+      <atom:link href="https://www.soran-prg.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 08 Mar 2018 11:12:31 +0330</lastBuildDate>
+    <image>
+      <url>https://www.soran-prg.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Authors</title>
+      <link>https://www.soran-prg.github.io/authors/</link>
+    </image>
+    
+    <item>
+      <title>Parang S.</title>
+      <link>https://www.soran-prg.github.io/authors/parang-s./</link>
+      <pubDate>Thu, 08 Mar 2018 11:12:31 +0330</pubDate>
+      <guid>https://www.soran-prg.github.io/authors/parang-s./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Safari A.</title>
+      <link>https://www.soran-prg.github.io/authors/safari-a./</link>
+      <pubDate>Wed, 08 Mar 2017 16:21:31 +0330</pubDate>
+      <guid>https://www.soran-prg.github.io/authors/safari-a./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sharifi M. A. and Bahrodi A.</title>
+      <link>https://www.soran-prg.github.io/authors/sharifi-m.-a.-and-bahrodi-a./</link>
+      <pubDate>Wed, 08 Mar 2017 16:21:31 +0330</pubDate>
+      <guid>https://www.soran-prg.github.io/authors/sharifi-m.-a.-and-bahrodi-a./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parang</title>
+      <link>https://www.soran-prg.github.io/authors/parang/</link>
+      <pubDate>Tue, 08 Jul 2014 16:28:06 +0330</pubDate>
+      <guid>https://www.soran-prg.github.io/authors/parang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>S.</title>
+      <link>https://www.soran-prg.github.io/authors/s./</link>
+      <pubDate>Tue, 08 Jul 2014 16:28:06 +0330</pubDate>
+      <guid>https://www.soran-prg.github.io/authors/s./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Abedini A.</title>
+      <link>https://www.soran-prg.github.io/authors/abedini-a./</link>
+      <pubDate>Wed, 08 Jun 2011 16:01:17 +0330</pubDate>
+      <guid>https://www.soran-prg.github.io/authors/abedini-a./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.soran-prg.github.io/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.soran-prg.github.io/authors/admin/</guid>
+      <description>&lt;DIV align=&#34;justify&#34;&gt;
+&lt;p&gt;I am a &lt;em&gt;Ph.D. candidate&lt;/em&gt; and &lt;em&gt;research assistant&lt;/em&gt; working under the supervision of &lt;a href=&#34;https://science.uottawa.ca/earth/people/milne-glenn&#34;&gt;Prof. Glenn A. Milne&lt;/a&gt; in the Earth System Dynamics Research Group at the Department of Earth and Environmental Sciences at the University of Ottawa. I am interested in analyzing and integrating diverse satellite geodetic measurements for monitoring variations in the Earth&#39;s shape and gravity field—from global to local scales—and enhancing our understanding of Earth system dynamics concerning lithosphere, cryosphere and hydrosphere.&lt;/p&gt;
+&lt;p&gt;My research interests are focused on utilizing SAR Interferometry and GNSS/GPS techniques for monitoring ice-sheet motion and measuring Earth&#39;s surface displacements caused by natural hazards and anthropogenic activities; investigating the Earth structure through physical geodesy and Earth&#39;s gravity field recovery based upon satellite gravimetry (GRACE/GRACE-FO and GOCE); and deploying numerical/analytical approaches, adjustment theory and time series analysis for geodetic modeling.&lt;/p&gt;
+&lt;p&gt;Currently, I am working on Glacial Isostatic Adjustment (GIA) modeling for investigating the implications of ice sheets on Earth system dynamics and developing GIA models in different regions based on numerical modeling and combination of various data sources regarding the Earth rheology and ice history (e.g. geomorphological evidence, tide gauge records and satellite geodetic measurements), thereby enhancing the estimation of tectonic signals, distinguishing between climatic and non-climatic sea level fluctuations, constraining the rheological properties of the Earth&#39;s interior (e.g. lateral variations in viscosity and lithospheric thickness), reconstructing the regional seal level for a glacial cycle, and determining the main contributing factors and mechanisms to the past and present sea level changes and examining their contributions to the future sea level changes. To shed light on this topic, GIA accounts for the adjustment process of the Earth to an equilibrium state once burdened by glaciers and ice sheets. GIA impacts upon the Earth system dynamics and occasions a global pattern of sea level change, variations of the Earth&#39;s gravitational field, crustal deformation and fluctuations of the Earth&#39;s center of mass and the Earth&#39;s rotation. Consequently, GIA modeling supplies an invaluable source for assessing global warming effects and climate change, ice sheet evolution, natural hazards, and the Earth structure and its rheology. In recent years, satellite geodetic techniques have played an increasingly drastic role in constraining GIA signals in different regions with complex rheologies, such as Greenland and Antarctica, and improving the 3-D Earth models. I am very enthusiastic about developing and calibrating GIA models through numerical approaches (e.g. finite element) and integrating diverse geodetic sources including tide gauge, satellite altimetry, InSAR-derived displacement field, GPS/GNSS measurements and GRACE garvimetry. Due to the fact that these data sets have different sensitivities to GIA, they can be combined with each other so as to correct the GIA signals and investigate the effective mechanisms for ice sheet and sea level changes from past to future. To exemplify, combination of continuous GPS observations characterized by high temporal resolution with differential InSAR techniques having high spatial resolution for the purpose of supplying more constraints on solid earth deformation rates, and integration of GRACE measurements determining the mass change associated with the mass redistribution in atmosphere, oceans, solid Earth and ice sheets into satellite altimetry detecting the surface elevation variation derived from ice volume change and solid Earth deformation for correcting GIA signals and quantifying the past and present ice mass changes and the non-GIA-induced mass redistribution, especially in areas where the ice sheets currently exist.&lt;/p&gt;
+&lt;/DIV&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>S. | Soran Parang</title>
+    <link>https://www.soran-prg.github.io/authors/s./</link>
+      <atom:link href="https://www.soran-prg.github.io/authors/s./index.xml" rel="self" type="application/rss+xml" />
+    <description>S.</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 08 Jul 2014 16:28:06 +0330</lastBuildDate>
+    <image>
+      <url>https://www.soran-prg.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>S.</title>
+      <link>https://www.soran-prg.github.io/authors/s./</link>
+    </image>
+    
+    <item>
+      <title>Comparing Moho Depth Estimated by EIGEN-GL04C Geopotential Model and Euler Deconvolution Method to Moho Depth Model Resulted from GOCE Gravity Data in Iran</title>
+      <link>https://www.soran-prg.github.io/publication/paper16/</link>
+      <pubDate>Tue, 08 Jul 2014 16:28:06 +0330</pubDate>
+      <guid>https://www.soran-prg.github.io/publication/paper16/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

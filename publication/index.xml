@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Soran Parang</title>
+    <link>https://www.soran-prg.github.io/publication/</link>
+      <atom:link href="https://www.soran-prg.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 08 Mar 2018 11:12:31 +0330</lastBuildDate>
+    <image>
+      <url>https://www.soran-prg.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Publications</title>
+      <link>https://www.soran-prg.github.io/publication/</link>
+    </image>
+    
+    <item>
+      <title>InSAR in Earth Science Research</title>
+      <link>https://www.soran-prg.github.io/publication/book3/</link>
+      <pubDate>Thu, 08 Mar 2018 11:12:31 +0330</pubDate>
+      <guid>https://www.soran-prg.github.io/publication/book3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>InSAR Time Series Analysis Using Small Baseline Subset (SBAS) Technique for Monitoring Land Subsidence</title>
+      <link>https://www.soran-prg.github.io/publication/paper21/</link>
+      <pubDate>Thu, 08 Jun 2017 16:12:12 +0330</pubDate>
+      <guid>https://www.soran-prg.github.io/publication/paper21/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analysis of the Complete Bouguer Gravity Anomaly and the Parker–Oldenburg Inversion for the Three-Dimensional Moho depth Model in the Central Alborz Structural Zone, Northern Iran</title>
+      <link>https://www.soran-prg.github.io/publication/paper20/</link>
+      <pubDate>Wed, 08 Mar 2017 16:21:31 +0330</pubDate>
+      <guid>https://www.soran-prg.github.io/publication/paper20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Moho Depth Estimation Using Gravitational Gradient Tensor (GGT) and 3D Euler Deconvolution Algorithm</title>
+      <link>https://www.soran-prg.github.io/publication/paper19/</link>
+      <pubDate>Sun, 08 May 2016 16:27:03 +0330</pubDate>
+      <guid>https://www.soran-prg.github.io/publication/paper19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Determination of the Best Window Size and Structural Index in Estimating Moho Depth through Euler Deconvolution Method (Case Study: The Zagros Zone)</title>
+      <link>https://www.soran-prg.github.io/publication/paper18/</link>
+      <pubDate>Thu, 08 Jan 2015 16:27:27 +0330</pubDate>
+      <guid>https://www.soran-prg.github.io/publication/paper18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Estimating Crustal Thickness of Iran Using Euler Deconvolution Method and EIGEN-GL04C Geopotential Model</title>
+      <link>https://www.soran-prg.github.io/publication/paper17/</link>
+      <pubDate>Mon, 08 Sep 2014 16:27:37 +0330</pubDate>
+      <guid>https://www.soran-prg.github.io/publication/paper17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparing Moho Depth Estimated by EIGEN-GL04C Geopotential Model and Euler Deconvolution Method to Moho Depth Model Resulted from GOCE Gravity Data in Iran</title>
+      <link>https://www.soran-prg.github.io/publication/paper16/</link>
+      <pubDate>Tue, 08 Jul 2014 16:28:06 +0330</pubDate>
+      <guid>https://www.soran-prg.github.io/publication/paper16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparison between Estimated Moho Depth from Euler Deconvolution Method and CRUST 2.0 Model</title>
+      <link>https://www.soran-prg.github.io/publication/paper15/</link>
+      <pubDate>Sat, 08 Feb 2014 16:28:10 +0330</pubDate>
+      <guid>https://www.soran-prg.github.io/publication/paper15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GPS, Principles of Satellite Navigation</title>
+      <link>https://www.soran-prg.github.io/publication/book2/</link>
+      <pubDate>Sat, 08 Feb 2014 16:00:25 +0330</pubDate>
+      <guid>https://www.soran-prg.github.io/publication/book2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparison of Seismic Moment Rates Obtained by Geophysical and Geological Methods in Structural Zones of Iran</title>
+      <link>https://www.soran-prg.github.io/publication/paper13/</link>
+      <pubDate>Tue, 08 Oct 2013 16:28:24 +0330</pubDate>
+      <guid>https://www.soran-prg.github.io/publication/paper13/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analytical Modeling of Tsunami Generation Phase in 2010 Chile Earthquake</title>
+      <link>https://www.soran-prg.github.io/publication/paper14/</link>
+      <pubDate>Tue, 08 Oct 2013 16:28:13 +0330</pubDate>
+      <guid>https://www.soran-prg.github.io/publication/paper14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Moho Depth Estimation by Inversion of Gravity Data &amp; Utilizing Moho Depth Quantities Produced by Seismological Studies</title>
+      <link>https://www.soran-prg.github.io/publication/paper12/</link>
+      <pubDate>Sun, 08 Sep 2013 16:28:27 +0330</pubDate>
+      <guid>https://www.soran-prg.github.io/publication/paper12/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Engineering Surveying</title>
+      <link>https://www.soran-prg.github.io/publication/book1/</link>
+      <pubDate>Wed, 08 Jun 2011 16:01:17 +0330</pubDate>
+      <guid>https://www.soran-prg.github.io/publication/book1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
